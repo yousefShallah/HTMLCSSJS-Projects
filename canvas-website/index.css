@@ -1,0 +1,102 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+}
+#header-continer{
+    width: 100%;
+    height: 800px;
+    background-image: url(./images/background-header.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    opacity: .8;
+}
+.header{
+    height: 800px;
+    background: #00000057;
+}
+/* navbar css */
+.navbar-continer{
+    border-bottom: 1px solid rgb(194, 194, 194) ;
+    margin-right: 0px !important;
+    margin-left: 0px !important;
+}
+/* logo css */
+#logo-continer{
+    border-right: 1px solid rgb(194, 194, 194) ;
+}
+#logo-continer a{
+    margin: 0px auto;
+    margin-left: 30px;
+}
+#logo-continer a img{
+    height: auto;
+}
+/* links css */
+.navbar-nav {
+    flex-direction: unset !important;
+}
+
+.list-group{
+    width: 70%;
+    display: flex !important;
+    margin-top: 30px;
+    float: right;
+}
+.list-group li {
+    width: 120px;
+    margin-left: 5px;
+    text-align: center;
+}
+.list-group li a{
+    font-size: 20px;
+    color: #fff;
+}
+.list-group li a:hover{
+    color: rgba(233, 233, 233, 0.863);
+    transition: all 0.5s cubic-bezier(0.54, -0.8, 0.57, 0.57);
+    transform: translateY(-0.3rem);
+    font-weight: 600;
+}
+.list-group li a i{
+    float: left;
+    margin: 5px auto;
+}
+.sticky {
+    position: fixed;
+    width: 100%;
+    height: 70px;
+    background: rgba(204, 204, 204, 0.678);
+    border: 0px;
+}
+.sticky #logo-continer {
+    border: 0px;
+    margin-top: -17px;
+}
+.sticky .list-group{
+    width: 70%;
+}
+.sticky li {
+    width: 150px;
+    margin-left: 5px;
+    text-align: center;
+    margin-top: -20px;
+}
+.sticky li a{
+    color: #242424;
+}
+.sticky li a:hover{
+    color: rgb(5, 5, 5);
+    transition: all 0.5s cubic-bezier(0.54, -0.8, 0.57, 0.57);
+    transform: translateY(-0.3rem);   
+}
+
+
+@media only screen and (min-width: 360px) and (max-width: 960px) {
+    body{
+
+    }
+    #main-continer {
+        background: lightblue;
+    }
+}
